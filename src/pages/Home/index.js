@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text } from 'react-native';
 
 import { Feather } from '@expo/vector-icons'
@@ -8,6 +8,7 @@ import { Container, Field, IView, Email, Password, Button } from './styles';
 import back from '../../assets/back.png'
 
 export default function Home({ navigation }) {
+
   return (
     <Container source={back}>
       <Field>
@@ -17,10 +18,13 @@ export default function Home({ navigation }) {
         </IView>        
         <IView>
           <Feather name="lock" size={24} color="#FFFFFF"/>
-          <Password placeholder={"Password"} />
+          <Password 
+            placeholder={"Password"} 
+            onChangeText={(account => setAccount(account))}
+          />
         </IView>
 
-        <Button onPress={() => navigation.navigate('Main')}>
+        <Button onPress={Login(navigation)}>
           <Text style={{ color: '#FFFFFF' }} >Entrar</Text>
         </Button>
       </Field>
