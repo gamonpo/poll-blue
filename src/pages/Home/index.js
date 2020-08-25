@@ -24,7 +24,7 @@ export default function Home({ navigation }) {
           />
         </IView>
 
-        <Button onPress={Login(navigation)}>
+        <Button onPress={() => navigation.navigate('Main')}>
           <Text style={{ color: '#FFFFFF' }} >Entrar</Text>
         </Button>
       </Field>
