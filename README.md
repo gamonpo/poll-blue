@@ -13,3 +13,5 @@
   - Emulador de android(android studio, genymotion) 
                  ou
   - Expo client no smartphone(https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
+
+### https://www.linkedin.com/in/issafe/
