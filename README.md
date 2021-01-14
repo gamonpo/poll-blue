@@ -14,4 +14,4 @@
                  ou
   - Expo client no smartphone(https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
 
-### https://www.linkedin.com/in/issafe/
+### Design created by https://www.linkedin.com/in/issafe/
